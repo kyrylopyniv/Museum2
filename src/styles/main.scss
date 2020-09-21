@@ -1,7 +1,17 @@
+@import "reset";
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "button";
+@import "burger";
+
+html {
+  font-family: Raleway , sans-serif;
+  scroll-behavior: smooth;
+}
 
 body {
   background: $c-gray;
+  margin: 0;
 }

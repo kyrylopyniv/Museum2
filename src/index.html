@@ -7,7 +7,57 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <h1>Hello Mate Academy</h1>
+    <div class="header">
+      <div class="header__top">
+        <a href="#" class="header__logo">
+          namu
+        </a>
+        <div class="header__menu">
+          <div class="burger header__burger">
+          </div>
+          <select class="header__language"
+                  name="lang-style"
+                  id="lang-style"
+                  tabindex="3"
+          >
+            <option class="header__option"
+                    value="UA"
+                    selected>
+                    UA
+            </option>
+            <option class="header__option"
+                    value="EN">
+                    EN
+            </option>
+          </select>
+        </div>
+      </div>
+      <div class="header__promo">
+        <p class="header__period">
+        10 серпня - 10 листопада
+        </p>
+        <h1 class="header__title">
+        Мистецтво
+            ХІХ - ХХ ст.
+        </h1>
+        <p class="header__description">
+        Внесок українських митців в світову культуру
+        19-20ст.
+        </p>
+        <button type="button"
+                class="button header__button"
+                onclick="document.location='http://content.gallery.gold/about-gold/'">
+              Придбати квиток
+        </button>
+        <p class="header__period2">
+            10.08 - 10.10
+        </p>
+        <div class="header__photo">
+          <img alt="ukrainian-art-example"
+            src="images/1200px-Girl_from_Podolye_by_V.Tropinin.png">
+        </div>
+      </div>
+    </div>
     <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

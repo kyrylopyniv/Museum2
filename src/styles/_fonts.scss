@@ -4,3 +4,25 @@
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: "Playfair Display";
+  src: url("../fonts/PlayfairDisplay/PlayfairDisplay-SemiBold.ttf");
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("../fonts/Raleway-VariableFont_wght.ttf");
+}
+
+@font-face {
+  font-family: NAMU;
+  src: url("../fonts/NAMU-web/NAMU-1960.woff") format("woff");
+}
+
+/* <link href="https://fonts.googleapis.com/css2?
+family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,500;
+1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,
+    wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,
+    200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet"> */

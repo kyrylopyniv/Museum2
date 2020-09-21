@@ -1,0 +1,113 @@
+.header {
+  position: relative;
+  height: 800px;
+  background-color: #3f5252;
+
+  &__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-right: 5.6%;
+    padding-left: 4.3%;
+    height: 50px;
+    width: 100%;
+  }
+
+  &__logo {
+    font-family: NAMU , sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 43px;
+    color: $c-gray;
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+  }
+
+  &__language {
+    font-weight: 500;
+    color: $c-gray;
+    background: #3f5252;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &__burger {
+    position: relative;
+    
+  }
+
+  &__promo {
+    padding-left: 4.3%;
+    padding-right: 5%;
+    padding-top: 120px;
+    
+  }
+
+  &__title {
+    font-family: "Playfair Display" , sans-serif;
+    font-weight: 700;
+    font-size: 96px;
+    line-height: 100%;
+    color: $c-gray;
+    white-space: pre-wrap;
+    
+  }
+
+  &__period {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: $c-gray;
+    white-space: normal;
+  }
+
+  &__description {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: $c-gray;
+    white-space: pre-wrap;
+  }
+
+  &__button {
+    margin-left: 155px;
+    
+  }
+
+  &__period2 {
+    position: absolute;
+    font-family: "Playfair Display" , sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125%;
+    color: $c-gray;
+    opacity: 0.7;
+    &::after {
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 20px;
+      content: "";
+      background-color: $c-gray;
+      height: 1px;
+      width: 492px;
+      opacity: 0.3;
+    
+    }
+  }
+
+  &__photo {
+    position: absolute;
+    top: 47px;
+    right: 0;
+    
+  }
+  
+
+}
