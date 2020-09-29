@@ -7,57 +7,131 @@
     <link rel="stylesheet" href="./styles/main.scss">
   </head>
   <body>
-    <div class="header">
-      <div class="header__top">
-        <a href="#" class="header__logo">
-          namu
-        </a>
-        <div class="header__menu">
-          <div class="burger header__burger">
+    <div class="wrapper">
+      <div class="header">
+        <div class="header__content">
+          <div class="header__top">
+            <a href="http://namu.kiev.ua/new/" class="header__logo">
+                namu
+            </a>
+            <div class="header__menu">
+              <div class="burger header__burger">
+              </div>
+              <select class="header__language"
+                        name="lang-style"
+                        id="lang-style"
+                        tabindex="3"
+                        >
+                <option class="header__option"
+                          value="UA"
+                          selected>
+                          UA
+                </option>
+                <option class="header__option"
+                          value="EN">
+                          EN
+                </option>
+              </select>
+            </div>
           </div>
-          <select class="header__language"
-                  name="lang-style"
-                  id="lang-style"
-                  tabindex="3"
-          >
-            <option class="header__option"
-                    value="UA"
-                    selected>
-                    UA
-            </option>
-            <option class="header__option"
-                    value="EN">
-                    EN
-            </option>
-          </select>
+          <div class="header__promo">
+            <div class="header__text">
+              <p class="header__period">
+                10 серпня - 10 листопада
+              </p>
+              <p class="header__title">
+                Мистецтво
+              </p>
+              <p class="header__title2">
+              ХІХ - ХХ cт.
+              </p>
+              <p class="header__description">
+              Внесок українських митців в світову культуру<br>
+              19-20ст.
+              </p>
+              <a
+                class="header__button"
+                onclick="document.location='http://namu.kiev.ua/new/'">
+                Придбати квиток
+              </a>
+              <p class="header__period2">
+                  10.08 - 10.10
+              </p>
+            </div>
+            <div class="header__photo">
+              <img alt="ukrainian-art-example"
+                  src="images/1200px-Girl_from_Podolye_by_V.Tropinin.png">
+            </div>
+          </div>
         </div>
       </div>
-      <div class="header__promo">
-        <p class="header__period">
-        10 серпня - 10 листопада
-        </p>
-        <h1 class="header__title">
-        Мистецтво
-            ХІХ - ХХ ст.
-        </h1>
-        <p class="header__description">
-        Внесок українських митців в світову культуру
-        19-20ст.
-        </p>
-        <button type="button"
-                class="button header__button"
-                onclick="document.location='http://content.gallery.gold/about-gold/'">
+      <section class="events">
+        <div class="events__row-1">
+          <div class="events__img1">
+            <img alt="angels_exposition"
+                src="images/angels_img.png">
+          </div>
+          <h1 class="events__title">Актуальні виставки</h1>
+          <h1 class="events__date">11.07 - 22.09</h1>
+          <div class="events__article1">
+            <h2 class="events__smallhead">Кураторська виставка"Ангели"</h2>
+            <p class="events__text">
+              Виставковий проект «Ангели» – знакова подія
+              <br>для української культури і водночас
+              <br>наймасштабніший...
+            </p>
+            <a
+              class="events__button"
+              onclick="document.location='http://namu.kiev.ua/new/'">
               Придбати квиток
-        </button>
-        <p class="header__period2">
-            10.08 - 10.10
-        </p>
-        <div class="header__photo">
-          <img alt="ukrainian-art-example"
-            src="images/1200px-Girl_from_Podolye_by_V.Tropinin.png">
+            </a>
+          </div>
+          <div class="events__article2">
+            <p class="events__note">Діє постійно</p>
+            <h2 class="events__smallhead">Мистецтво ХХ ст. — XXI ст.</h2>
+            <p class="events__text">
+              Знакові роботи Алли Горської, Миколи
+              <br>Самокиша, Федора Кричевського та інших
+              <br>митців.
+            </p>
+            <a
+              class="events__button"
+              onclick="document.location='http://namu.kiev.ua/new/'">
+              Придбати квиток
+            </a>
+          </div>
+          <div class="events__img2">
+            <img alt="19-20century-art"
+                src="images/19-20cent_art.png">
+          </div>
+          <div class="events__img3">
+            <img alt="old-art"
+                src="images/old_art.png">
+          </div>
+          <div class="events__article3">
+            <p class="events__note">Діє постійно</p>
+            <h2 class="events__smallhead">Стародавнє мистецтво</h2>
+            <p class="events__text">
+              Визначні приклади стародавнього українського
+              <br>іконопису та живопису
+            </p>
+            <a
+              class="events__button"
+              onclick="document.location='http://namu.kiev.ua/new/'">
+              Придбати квиток
+            </a>
+          </div>
         </div>
-      </div>
+      </section>
+      <section class="nearesrt_events">
+      </section>
+      <section class="attend_museum">
+      </section>
+      <section class="news">
+      </section>
+      <footer class="footer">
+      </footer>
+      <script type="text/javascript" src="scripts/main.js"></script>
     </div>
-    <script type="text/javascript" src="scripts/main.js"></script>
   </body>
 </html>

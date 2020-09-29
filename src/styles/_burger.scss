@@ -1,22 +1,24 @@
     
 .burger {
-  background-color: $c-gray;
+  background-color: $light-gray;
   width: 25px;
   height: 2px;
+  cursor: pointer;
   
   &::before {
     content: "";
     position: absolute;
-    bottom: 7px;
-    background-color: $c-gray;
+    bottom: 9px;
+    background-color: $light-gray;
     width: 100%;
     height: 100%;
+    
   }
   &::after {
     position: absolute;
     content: "";
-    top: 7px;
-    background-color: $c-gray;
+    top: 9px;
+    background-color: $light-gray;
     width: 100%;
     height: 100%;
     
