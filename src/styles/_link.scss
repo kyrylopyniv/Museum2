@@ -1,0 +1,16 @@
+.link {
+  color: $headcolor;
+  line-height: 100%;
+
+  &::after {
+    position: absolute;
+    width: 70px;
+    height: 1px;
+    content: "";
+    background-color: $headcolor;
+    align-self: center;
+    margin-left: 20px;
+    margin-top: 5px;
+    opacity: 0.3;
+  }
+}

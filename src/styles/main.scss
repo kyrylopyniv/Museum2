@@ -1,7 +1,37 @@
+@import "reset";
 @import "utils";
 @import "fonts";
 @import "typography";
+@import "header";
+@import "burger";
+@import "button";
+@import "link";
+@import "note";
+@import "events";
+@import "nearest-events";
+
+html {
+  font-family: Raleway , sans-serif;
+  scroll-behavior: smooth;
+  font-size: 16px;
+  line-height: 150%;
+  font-weight: 400;
+  color: $articlecolor;
+}
 
 body {
-  background: $c-gray;
+  background: $light-gray;
+  margin: 0;
+}
+
+.wrapper {
+  /* display: grid;
+  grid-template: minmax(580px, auto) 1fr minmax(540px, auto) / 1fr;
+  justify-items: center; */
+  /* max-width: 2560px; */
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+  overflow-x: hidden;
+  /* justify-content: center; */
 }

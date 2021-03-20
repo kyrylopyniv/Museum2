@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+}
+
+html,
+h1,
+h2,
+h3,
+h4,
+h5,
+a,
+p,
+li,
+div,
+button,
+input,
+textarea,
+section,
+select {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  vertical-align: baseline;
+  
+}

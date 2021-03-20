@@ -1,0 +1,120 @@
+
+.header {
+  background-color: $dark-gray;
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* align-content: center; */
+  /* align-self: center; */
+
+  &__content {
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    max-width: 1280px;
+    padding-right: 72px;
+    padding-left: 55px;
+    padding-top: 20px;
+    
+  }
+  
+  &__top {  //топ хедера лого+ бургер
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+
+  &__logo {
+    font-family: NAMU , sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 43px;
+    color: $light-gray;
+    /* position: absolute; */
+    /* z-index: 2; */
+  }
+
+  &__menu {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  &__language {
+    font-weight: 500;
+    color: $light-gray;
+    background: $dark-gray;
+    border: none;
+    outline: none;
+    cursor: pointer;
+  }
+
+  &__burger {
+    position: relative;
+    margin-right: 40px;
+    
+  }
+
+  &__promo {
+    display: flex;
+    /* justify-self: center; */
+    justify-items: center;
+    align-items: center;
+  }
+
+  &__title2 {
+    margin-left: 100px;
+    margin-bottom: 40px;
+    white-space: nowrap;
+  }
+
+  &__period {
+    margin-top: 120px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: $light-gray;
+  }
+
+  &__description {
+    margin-bottom: 60px;
+    margin-left: 100px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: $light-gray;
+  }
+
+  &__button {
+    margin-bottom: 110px;
+    margin-left: 100px;
+    /* @extend %pseudo-button; */
+  }
+
+  &__period2 {
+    margin-bottom: 52px;
+    font-family: "Playfair Display" , sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 125%;
+    color: $light-gray;
+    opacity: 0.7;
+    &::after {
+      position: absolute;
+      margin-top: 10px;
+      margin-left: 20px;
+      content: "";
+      background-color: $light-gray;
+      height: 1px;
+      width: 492px;
+      opacity: 0.3;
+    
+    }
+  }
+
+  &__img {
+    width: 673px;
+  }
+}

@@ -1,0 +1,13 @@
+.button {
+  display: block;
+  width: 270px;
+  padding: 22px 73px;
+  background: $dark-red;
+  cursor: pointer;
+  outline: none;
+  font-family: inherit;
+  font-weight: 16px;
+  line-height: 100%;
+  white-space: nowrap;
+  color: $light-gray;
+}
