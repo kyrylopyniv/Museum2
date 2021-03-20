@@ -1,0 +1,14 @@
+.note {
+  font-family: Raleway , sans-serif;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 20px;
+  color: $headcolor;
+
+  &--red {
+    color: $dark-red;
+    font-size: 16px;
+    line-height: 150%;
+    font-weight: 400;
+  }
+}

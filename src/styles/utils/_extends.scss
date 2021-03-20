@@ -31,17 +31,22 @@
   color: $headcolor;
 }
 
-%pseudo-button {
-  display: block;
-  width: 270px;
-  padding: 22px 73px;
-  background: $dark-red;
-  cursor: pointer;
-  outline: none;
-  font-family: inherit;
-  font-weight: 16px;
+%h4 {
+  font-family: "Playfair Display", sans-serif;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 100%;
-  white-space: nowrap;
-  color: $light-gray;
+  color: $headcolor;
+}
 
+%transparent-number {
+  font-family: "Playfair Display" , sans-serif;
+  font-weight: 700;
+  font-size: 55px;
+  line-height: 100%;
+  text-transform: uppercase;
+  color: transparent;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: $dark-red;
+  
 }

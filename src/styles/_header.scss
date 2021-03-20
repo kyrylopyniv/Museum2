@@ -1,13 +1,20 @@
 
 .header {
   background-color: $dark-gray;
-  
+  /* justify-items: center; */
+  /* align-items: center; */
+  /* justify-content: center; */
+  /* justify-self: center; */
+  /* align-content: center; */
+  /* align-self: center; */
+
   &__content {
-    justify-content: center;
-    align-items: center;
-    max-width: 2560px;
-    padding-right: 5.6%;
-    padding-left: 4.3%;
+    /* justify-items: center; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    max-width: 1280px;
+    padding-right: 72px;
+    padding-left: 55px;
     padding-top: 20px;
     
   }
@@ -25,7 +32,8 @@
     font-size: 36px;
     line-height: 43px;
     color: $light-gray;
-    z-index: 2;
+    /* position: absolute; */
+    /* z-index: 2; */
   }
 
   &__menu {
@@ -51,8 +59,9 @@
 
   &__promo {
     display: flex;
-    justify-content: space-between;
-    
+    /* justify-self: center; */
+    justify-items: center;
+    align-items: center;
   }
 
   &__title2 {
@@ -81,7 +90,7 @@
   &__button {
     margin-bottom: 110px;
     margin-left: 100px;
-    @extend %pseudo-button;
+    /* @extend %pseudo-button; */
   }
 
   &__period2 {
@@ -105,4 +114,7 @@
     }
   }
 
+  &__img {
+    width: 673px;
+  }
 }
